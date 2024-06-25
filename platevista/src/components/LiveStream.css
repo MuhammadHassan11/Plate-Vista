@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+header {
+  width: 100%; 
+  background-color: lightblue; 
+  text-align: center; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+#result {
+  margin-top: 20px;
+}
+
+button {
+  background-color: burlywood;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: coral;
+}
